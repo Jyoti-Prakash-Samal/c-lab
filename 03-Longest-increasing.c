@@ -3,7 +3,7 @@
 int main() {
   int n,i;
     printf("Enter the number of elements:\n");
-    if (scanf("%d", &n) < 2) {
+    if (scanf("%d", &n)!=1||n < 2) {
         printf("Invalid input, Array needs at least two elements.\n");
         return 1; 
     }

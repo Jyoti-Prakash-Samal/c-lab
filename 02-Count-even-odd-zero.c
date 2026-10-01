@@ -2,13 +2,12 @@
 int main(){
     int n,i,pe=0,po=0,ne=0,no=0,z=0;
     printf("Enter the number of numbers:\n");
-    scanf("%d",&n);
-     if (n != 1 || n < 2) {
+     if (scanf("%d",&n) != 1 || n < 2) {
         printf("Invalid input, Array needs at least two elements.\n");
         return 1; 
     }
     int k[n];
-    printf("Enter %d numbers\n");
+    printf("Enter %d numbers\n",n);
     for(i=0;i<n;i++)
     {
 scanf("%d",&k[i]);

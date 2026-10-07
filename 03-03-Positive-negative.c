@@ -13,7 +13,6 @@ else{
     int positive[n];
     int negative[n];
     printf("Enter %d numbers \n", n);
-    printf("A:");
     for(i=0;i<n;i++)
     {
         scanf("%d", &k[i]);
@@ -26,13 +25,15 @@ else{
             negative[p]=k[i];
             p++;
         }
-        printf("%d", k[i]);
     }
+    printf("A:");
+    for(i=0;i<n;i++)
+    printf("%d ",k[i]);
     printf("\nB:");
     for(i=0;i<j;i++)
-    printf("%d",positive[i]);
+    printf("%d ",positive[i]);
     printf("\nC:");
     for(i=0;i<p;i++)
-    printf("%d", negative[i]);
+    printf("%d ", negative[i]);
 }
 }

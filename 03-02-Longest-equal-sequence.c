@@ -39,8 +39,8 @@ found=0;
             c=1;
         }
     }
-    printf("Number=%d\n");
-    printf("Length= %d" ,last-first+1);
+    printf("Number=%d\n", number);
+    printf("Length= %d\n" ,last-first+1);
     printf("Starting position: %d\n", first);
-    printf("Ending position: %d\n", last);
+    printf("Ending position: %d\n", last+1);
 }

@@ -1,4 +1,3 @@
-/*Write a C program to read an integer and determine whether it is:  Positive  Negative  Zero*/
 #include <stdio.h>
 int main(){
     int n;

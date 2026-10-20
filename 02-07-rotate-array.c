@@ -3,8 +3,8 @@
 int main() {
 int n,i,k,temp;
     printf("Enter the number of elements:\n");
-    if (scanf("%d", &n) != 1 || n < 2) {
-        printf("Invalid input, Array needs at least two elements.\n");
+    if (scanf("%d", &n) != 1 || n < 1) {
+        printf("Invalid input, Array needs at least one element.\n");
         return 1; 
     }
     int arr[n];
@@ -12,12 +12,11 @@ int n,i,k,temp;
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    
+    printf("Enter the number of positions to rotate:\n");
     if (scanf("%d", &k) != 1) return 1;
     
     k = k % n;
     if (k < 0) k += n;
-    
     int left = 0;
     int right = n - 1;
     while (left < right) {

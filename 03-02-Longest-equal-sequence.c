@@ -28,9 +28,8 @@ int main() {
                 ls = c;
                 first = i - c + 1;
                 last = i;
-                number = k[i - 1];
+                number = k[i];
             }
-
             c = 1;
         }
     }
